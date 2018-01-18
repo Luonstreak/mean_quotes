@@ -1,0 +1,40 @@
+*{
+	font-family: sans-serif;
+	font-weight: lighter;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.button {
+	border: 1px solid gray;
+	padding: 5px 10px;
+	margin: 0 10px;
+}
+
+.quote {
+	font-weight: bolder;
+	margin-top: 50px;
+	padding: 0 75px;
+	border-bottom: 1px solid lightgray;
+}
+
+.quote h3 {
+	font-style: italic;
+}
+
+.quote h4 {
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+}

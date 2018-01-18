@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quotes</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>QUOTES</h1>
+		<% for(x in data){ %>
+		<div class="quote">
+			<h3>"<%= data[x].quote %>"</h3>
+			<h4>- <%= data[x].name %> at <%= data[x].time %></h4>
+		</div>
+		<% } %>
+	</div>
+</body>
+</html>
